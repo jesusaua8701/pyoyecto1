@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="scrip.js"></script>
+    <title>Chanllenge de Alura</title>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img calss="logoimg" src="/img/Logo.png" alt="logo">
+            
+        </div>
+        <div class="pderecho">
+            <input id="text-input" type="text" placeholder="Ingrece el texto aqui">
+        </div>
+        <div class="pizquierdo">
+            <img id="imagenDerecha" src="/img/mune.png" alt="muñeco">
+            <h2 id="texto">Ningun mensaje fue encontrado</h2>
+            <textarea name="name" id="texto2" cols="30" rows="10">Ingrese el texto que quieras Encriptar o Desencriptar</textarea>
+            <button type="button" id="copy" onclick="copyToClipBoard()">Copiar</button>
+        </div>
+        <div class="botones">
+            <p>solo palabras en mayusculas y sin acentucaciones</p>
+            <button type="button" onclick="encriptar()" id="btn-encriptar">Encriptar</button>
+            <button type="button" id="btn-desencriptar" onclick="desencriptar()">Desencriptar</button>
+        
+        </div>
+    </div>
+    <footer class="footer">
+        <p>Este proyecto fue creado por Jesus Angel Ugalde Acosta </p>
+    </footer>
+</body>
+</html>
